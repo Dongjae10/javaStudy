@@ -17,6 +17,7 @@ public class Practice01 {
         int[] a = {0,2,4,8,6};
         System.out.println(max(a));
 
+        //ArrayList로 최댓값 구하기
         ArrayList<Integer> b = new ArrayList<>();
         for(int c : a)
             b.add(c);
@@ -46,7 +47,7 @@ public class Practice01 {
 
         int max = 0;
 
-        for (int i = 0; i > arrayList.size() ; i++){
+        for (int i = 0; i < arrayList.size() ; i++){
             max = max > arrayList.get(i) ? max : arrayList.get(i);
         }
         return max;
