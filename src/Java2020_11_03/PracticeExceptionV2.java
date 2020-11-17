@@ -1,5 +1,7 @@
 package Java2020_11_03;
 
+
+
 class Student{
     int grade;
 
@@ -19,6 +21,7 @@ public class PracticeExceptionV2 {
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
+
 
     }
 
